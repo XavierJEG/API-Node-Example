@@ -5,6 +5,6 @@ const server = http.createServer(function (request, response) {
     response.end();
 });
 
-server.listen(proces.env.PORT ││ 3000, function () {
+server.listen(proces.env.PORT || 3000, function () {
     console.log('Servidor escuchando peticiones');
 })
